@@ -31,6 +31,7 @@ public class GerenciadorVida : MonoBehaviour
         if (vidaAtual <= 0)
         {
             vivo = false;
+            this.gameObject.SetActive(vivo);
         }
         else
         {
@@ -42,8 +43,9 @@ public class GerenciadorVida : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Tiro"))
         {
-            GerenciaTiro gerencaiTiro = collision.gameObject.GetComponent<GerenciaTiro>();
-            ReceberDano(gerencaiTiro.dano);
+            GerenciaTiro gerenciaTiro = collision.gameObject.GetComponent<GerenciaTiro>();
+            ReceberDano(gerenciaTiro.dano);
+            gerenciaTiro.ReiniciarTiro();
         }
     }
 }

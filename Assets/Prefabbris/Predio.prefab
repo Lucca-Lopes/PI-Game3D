@@ -17,7 +17,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6530921300847208798
 Transform:
@@ -115,7 +115,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &7594850949414677711
 Transform:
@@ -152,7 +152,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6215261893741036915
 Transform:
@@ -189,7 +189,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1391146335660500265
 Transform:
@@ -226,7 +226,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6781739180918818949
 Transform:
@@ -259,6 +259,10 @@ PrefabInstance:
     - target: {fileID: 2964179800327256228, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
       propertyPath: m_Name
       value: Vidro (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964179800327256228, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5872624399048717282, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
       propertyPath: m_RootOrder
@@ -334,6 +338,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vidro (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2964179800327256228, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5872624399048717282, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -407,6 +415,10 @@ PrefabInstance:
     - target: {fileID: 2964179800327256228, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
       propertyPath: m_Name
       value: Vidro (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964179800327256228, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5872624399048717282, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
       propertyPath: m_RootOrder
@@ -482,6 +494,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vidro
       objectReference: {fileID: 0}
+    - target: {fileID: 2964179800327256228, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5872624399048717282, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -555,6 +571,10 @@ PrefabInstance:
     - target: {fileID: 2964179800327256228, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
       propertyPath: m_Name
       value: Vidro (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964179800327256228, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5872624399048717282, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
       propertyPath: m_RootOrder
@@ -630,6 +650,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vidro (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2964179800327256228, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5872624399048717282, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -703,6 +727,10 @@ PrefabInstance:
     - target: {fileID: 2964179800327256228, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
       propertyPath: m_Name
       value: Vidro (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964179800327256228, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5872624399048717282, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
       propertyPath: m_RootOrder
@@ -778,6 +806,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vidro (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2964179800327256228, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5872624399048717282, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -851,6 +883,10 @@ PrefabInstance:
     - target: {fileID: 2964179800327256228, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
       propertyPath: m_Name
       value: Vidro (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964179800327256228, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5872624399048717282, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
       propertyPath: m_RootOrder
@@ -926,6 +962,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vidro (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2964179800327256228, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5872624399048717282, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -999,6 +1039,10 @@ PrefabInstance:
     - target: {fileID: 2964179800327256228, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
       propertyPath: m_Name
       value: Vidro (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964179800327256228, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5872624399048717282, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
       propertyPath: m_RootOrder
@@ -1074,6 +1118,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vidro (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2964179800327256228, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5872624399048717282, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -1147,6 +1195,10 @@ PrefabInstance:
     - target: {fileID: 2964179800327256228, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
       propertyPath: m_Name
       value: Vidro
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964179800327256228, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5872624399048717282, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
       propertyPath: m_RootOrder
@@ -1222,6 +1274,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vidro (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2964179800327256228, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5872624399048717282, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -1295,6 +1351,10 @@ PrefabInstance:
     - target: {fileID: 2964179800327256228, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
       propertyPath: m_Name
       value: Vidro (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964179800327256228, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5872624399048717282, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
       propertyPath: m_RootOrder
@@ -1370,6 +1430,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vidro (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2964179800327256228, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5872624399048717282, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1443,6 +1507,10 @@ PrefabInstance:
     - target: {fileID: 2964179800327256228, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
       propertyPath: m_Name
       value: Vidro
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964179800327256228, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5872624399048717282, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
       propertyPath: m_RootOrder
@@ -1518,6 +1586,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vidro (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2964179800327256228, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5872624399048717282, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -1591,6 +1663,10 @@ PrefabInstance:
     - target: {fileID: 2964179800327256228, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
       propertyPath: m_Name
       value: Vidro (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964179800327256228, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5872624399048717282, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
       propertyPath: m_RootOrder
@@ -1666,6 +1742,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vidro (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2964179800327256228, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5872624399048717282, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -1739,6 +1819,10 @@ PrefabInstance:
     - target: {fileID: 2964179800327256228, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
       propertyPath: m_Name
       value: Vidro (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964179800327256228, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5872624399048717282, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
       propertyPath: m_RootOrder
@@ -1814,6 +1898,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vidro
       objectReference: {fileID: 0}
+    - target: {fileID: 2964179800327256228, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5872624399048717282, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1888,6 +1976,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vidro (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2964179800327256228, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5872624399048717282, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -1961,6 +2053,10 @@ PrefabInstance:
     - target: {fileID: 2964179800327256228, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
       propertyPath: m_Name
       value: Vidro (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964179800327256228, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5872624399048717282, guid: c96648213cf5f4f7eba12cabb8267f17, type: 3}
       propertyPath: m_RootOrder
