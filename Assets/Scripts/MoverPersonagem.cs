@@ -1,13 +1,29 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class MoverPersonagem : MonoBehaviour
 {
+    MeusControles meusControles;
+    Vector2 inputMovimento;
     [SerializeField] float velocidade;
     Rigidbody rgbd;
-    float inputHorizontal;
-    float inputVertical;
+
+    private void Awake()
+    {
+        meusControles = new MeusControles();
+    }
+
+    private void OnEnable()
+    {
+        meusControles.Enable();
+    }
+
+    private void OnDisable()
+    {
+        meusControles.Disable();
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -18,13 +34,17 @@ public class MoverPersonagem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        inputHorizontal = Input.GetAxis("Horizontal");
-        inputVertical = Input.GetAxis("Vertical");
-        Mover(inputHorizontal, inputVertical);
+        inputMovimento = meusControles.Player.Mover.ReadValue<Vector2>();
+        Mover();
     }
 
-    void Mover(float inputH, float inputV)
+    void Mover()
     {
-        rgbd.velocity = new Vector3(inputH * velocidade, 0, inputV * velocidade);
+        rgbd.velocity = new Vector3(inputMovimento.x, 0, inputMovimento.y) * velocidade;
+    }
+
+    public void Atirar()
+    {
+        Debug.Log("Atirou");
     }
 }
